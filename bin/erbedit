@@ -1,0 +1,3 @@
+#!/bin/sh -xe
+## Edit files then run erbit on them (to process off the .erb)
+${VISUAL:-${EDITOR:-vim}} "$@" && erbit "$@"
